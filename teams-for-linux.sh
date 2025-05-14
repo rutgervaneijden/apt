@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt install -y wget
 sudo mkdir -p /etc/apt/keyrings
 sudo wget -qO /etc/apt/keyrings/teams-for-linux.asc https://repo.teamsforlinux.de/teams-for-linux.asc
