@@ -6,4 +6,4 @@ echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft
 rm -f packages.microsoft.gpg
 sudo apt install -y apt-transport-https
 sudo apt update
-sudo apt install code
+sudo apt install -y code
